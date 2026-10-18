@@ -1,0 +1,44 @@
+{
+  "gita_verses": 701,
+  "verses_per_split": {
+    "train": 524,
+    "test": 141,
+    "val": 36
+  },
+  "translators": {
+    "held_out_query_author": "Shri Purohit Swami",
+    "english_corpus_author": "Swami Sivananda",
+    "training_authors": [
+      "Swami Adidevananda",
+      "Swami Gambirananda",
+      "Swami Sivananda",
+      "Dr. S. Sankaranarayan"
+    ]
+  },
+  "itihasa_kept": {
+    "train": 74421,
+    "dev": 6037,
+    "test": 11581
+  },
+  "itihasa_dropped_for_gita_overlap": {
+    "train": 597,
+    "dev": 98,
+    "test": 111
+  },
+  "training_pairs": 36285,
+  "training_pairs_by_source": {
+    "itihasa": 30000,
+    "gita": 6285
+  },
+  "validation_pairs": 444,
+  "queries_per_task": {
+    "T1_english_to_sanskrit": 141,
+    "T2_sanskrit_to_english": 141,
+    "T3a_dataset_romanization": 141,
+    "T3b_plain_ascii": 141,
+    "T4a_concept_to_english": 30,
+    "T4b_concept_to_sanskrit": 30,
+    "T5_itihasa_sanskrit_to_english": 1000
+  },
+  "quick_mode": false
+}
